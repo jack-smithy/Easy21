@@ -9,7 +9,8 @@ SHAPE = (len(DEALER_RANGE), len(PLAYER_RANGE), len(ACTIONS))
 
 TERMINAL_STATE = 'TERMINAL'
 
-COLOUR_PROBS = {'red':1/3, 'black':2/3}
+COLOUR_PROBS = {'red': 1/3, 'black': 2/3}
+COLOUR_COEFS = {'red': -1, 'black': 1}
 
 def draw_card(colour=None):
     value = np.random.choice(DECK)
