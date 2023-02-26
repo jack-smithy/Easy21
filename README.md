@@ -1,1 +1,1 @@
-# Easy21
+# Easy21 RL
